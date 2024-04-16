@@ -1,0 +1,26 @@
+{
+    "_id": {
+        "$oid": "65ff35f06ff4af97eab3b687"
+    },
+    "titulo": "O Nome da Agua",
+    "autores": [
+        "Lucas",
+        "Thiago"
+    ],
+    "categoria": "Fantasia",
+    "status": "disponível",
+    "emprestimos": [
+        {
+            "nome_leitor": "Joao",
+            "data_emprestimo": "2024-03-22",
+            "data_de_devolucao_prevista": "2024-04-01",
+            "devolvido": true
+        },
+        {
+            "nome_leitor": "Maria",
+            "data_emprestimo": "2024-04-04",
+            "data_de_devolucao_prevista": "2024-04-11",
+            "devolvido": false
+        }
+    ]
+}
